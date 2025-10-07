@@ -96,3 +96,31 @@ Javascript uses arithemtic opera(+ - * / %)
          "John" + " " + "Doe"  
    ```
 
+#### Javascript case sensitive
+
+Javascript identifiers are case sentitive.
+the variables `lastName` and `lastname`, are different variables:
+
+   ```
+      Example
+      let lastName = "Doe"
+      let lastname = "Peterson"
+
+      // lastName !== lastname
+   ```
+
+#### Javascript and camel case
+
+Historically, programmers have have used differnt ways of joining multiple words into one variable name:
+
+<b>Hyphens:</b>
+first-name, last-name, master-card, inter-city.
+
+<b>Underscore</b>
+first_name, last_name, master_card, inter_city.
+
+<b>Upper camal case(pascal case):</b>
+FirstName, LastName, MasterCard InterCity.
+
+<b>Lower camal case:</b>
+firstName, lastName, masterCard, interCity
