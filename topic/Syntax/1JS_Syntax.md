@@ -4,14 +4,14 @@
 syntax are the rule how program must be constructed
 
 ```
-// How to declare variable:
-let x = 5;
+   // How to declare variable:
+   let x = 5;
 
-// How to compute value
-let y = 6;
-let z = x + y;
+   // How to compute value
+   let y = 6;
+   let z = x + y;
 
-// I am a coment. I do Nothing
+   // I am a coment. I do Nothing
 ```
 
 #### javascript values
@@ -26,28 +26,27 @@ The most important syntax rules lierals (fixed values) are
    
    - <b>Numbaer</b> are writen with or without decimals: 
    
-   ```
-   Example
+***Example***
+```
 
-      10.50
-      1001
-   ```
+   10.50
+   1001
+```
    
    - <b>String</b> are text writen within bouble or single quotes:
 
-   ```
-   Example
+***Example***
+```
 
-      "John Doe"
-      'John Doe'
-   ```
+   "John Doe"
+   'John Doe'
+```
 
 ##### Javascipt Variable
 varible are containers for string data values.
 
+***Example***
 ```
-   Example
-
    // Define x as a variable 
    let x;
 
@@ -75,39 +74,39 @@ Rules for identifiers:
 #### Javascript Operators
 javascrpt assigment opreator(=) assign values to variables:
 
-   ```
-      Example
-         let x = 5;
-         let y = 6;
-         let sum = x + y
-   ```
+***Example***
+```
+   let x = 5;
+   let y = 6;
+   let sum = x + y
+```
 
 
 Javascript uses arithemtic opera(+ - * / %)
 
-   ```
-      Example
-         5 * 10 // output 50
+***Example***
+```
+      5 * 10 // output 50
 
-         // 5 + 6 evaluates to 110
-         (5 + 6) * 10 
+      // 5 + 6 evaluates to 110
+      (5 + 6) * 10 
 
-         // "John" + " " + "Doe", evaluates to "John Doe"
-         "John" + " " + "Doe"  
-   ```
+      // "John" + " " + "Doe", evaluates to "John Doe"
+      "John" + " " + "Doe"  
+```
 
 #### Javascript case sensitive
 
 Javascript identifiers are case sentitive.
 the variables `lastName` and `lastname`, are different variables:
 
-   ```
-      Example
-      let lastName = "Doe"
-      let lastname = "Peterson"
+***Example***
+```
+   let lastName = "Doe"
+   let lastname = "Peterson"
 
-      // lastName !== lastname
-   ```
+   // lastName !== lastname
+```
 
 #### Javascript and camel case
 

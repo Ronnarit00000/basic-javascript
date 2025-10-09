@@ -1,8 +1,7 @@
 ## Javascript Statements
 
+***Example***
 ```
-   Example
-
    let x, y, z; // statement 1
    x = 5;       // statement 2
    y = 6;       // statement 3
@@ -16,11 +15,11 @@ These programming instructions are called <b>statements.</b>
 Most Javascript programs contain many statements.
 The statements are executed one by one in the same order as they are written.
 
-```
+---
    Note
       
       In HTML Javascript programs are executed by the web browser.
-```
+---
 
 #### Javascript statements
 
@@ -28,31 +27,28 @@ Javascript statements are composed of:
 values, Operators, keywords and comments.
 This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo"
 
-```
-   Example
-      
-      document.getElementById("demo").innerHTML = "Hello Dolly";
+***Example***
+``` 
+   document.getElementById("demo").innerHTML = "Hello Dolly";
 ```
 
-```
-   
+---
    Note
 
       Javascript programs (and Javascript statements) are often called javascript code.
-```
+---
 
 #### Semicolons;
 
 Samicolons separate Javascript statemaents.
 Add a semicolon at the end of each executable statement:
 
+***Example***
 ```
-   Example
-   
-      let a, b, c;   // Declare 3 variables
-      a = 5;         // Assign the value 5 to a
-      b = 6;         // Assign the value 6 to b
-      c = a + b      // Assign the sum of a and b to c
+   let a, b, c;   // Declare 3 variables
+   a = 5;         // Assign the value 5 to a
+   b = 6;         // Assign the value 6 to b
+   c = a + b      // Assign the sum of a and b to c
 ```
 
 When separated by semicolons, multiple statements on one line are allowed:
@@ -62,11 +58,10 @@ When separated by semicolons, multiple statements on one line are allowed:
 Javascript ignores multiple spaces. You can add white space to your script to make it more readable.
 The following lines are equivalent:
 
-```
-   Example
-      
-      let person = "Hege";
-      let person="Hege";
+***Example***
+```   
+   let person = "Hege";
+   let person="Hege";
 ```
 
 #### Javascript line length and line breaks
@@ -74,10 +69,10 @@ The following lines are equivalent:
 For best readability, programmers often like to avoid code lines longer then 80 characters.
 If a Javascript statement does not fit on one line, the best place to break it is after an opreator:
 
+***Example***
 ```
-   Example
-      document.getElementById("demo).innerHTML = 
-      "Hello Dolly";
+   document.getElementById("demo).innerHTML = 
+   "Hello Dolly";
 ```
 
 #### Javascript code blocks
@@ -86,13 +81,12 @@ Javascript statements can be grouped together in code blocks, inside curly brack
 The purpose of code blocks is to define statements to be executed together.
 One place you will find statement grouped together in blocks, is in Javascrpt functions:
 
+***Example***
 ```
-   Example
-
-      function myFunction(){
-         document.getElementById("demo").innerHTML = "Hello Dolly";
-         document.getElementById("demo").innerHTML = "How are you?";
-      }
+   function myFunction(){
+      document.getElementById("demo").innerHTML = "Hello Dolly";
+      document.getElementById("demo").innerHTML = "How are you?";
+   }
 ```
 
 #### Javascript keywords
@@ -113,9 +107,8 @@ Here is a list of same of the keywords you will learn about in this tutorial:
 | return    | Exits a function                                                      |
 | try       | Implements error handling to a block of statements                    |
 
-```
+---
    Note 
-
       Javascript keywords are reserved works. Reserved words cannot be uesd as names for variables
 
-```
+---
