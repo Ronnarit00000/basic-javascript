@@ -226,3 +226,38 @@ In javascript, howerver, it makers perfect sense: it assigns the value of x + 5 
 
 ---
 
+### Javascript arithmetic
+
+as with algebra you do arithmetic with javascriopt variables, using opreators like `=` and `+`
+
+***Example***
+
+```
+   let x = 5 + 2 + 3 // 10
+```
+
+You can also add string, but string be will concatenated:
+
+***Example***
+
+```
+   let x = "John" + " " + "Doe";
+```
+
+---
+
+Note 
+
+   If you put a number in quotes, the rest of the numbers will be treated as string and concantenanted.
+
+---
+
+***Example***
+
+```
+   let x = "5" + 2 + 3; // 523
+```
+```
+   let x = 2 + 3 + "5" // 55
+```
+
