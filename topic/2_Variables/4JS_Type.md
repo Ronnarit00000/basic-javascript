@@ -168,3 +168,4 @@ An empty value has both a legal value and a type.
 ```
    let car = "";     // The value is "", the typeof is "string"
 ```
+
