@@ -61,6 +61,7 @@ Comparing data of different types may give unexpected result.
 When comparing a string with a number, javascript will convert the string to number when doing comparison. An empty string converts to 0. A non-numeric string convertd to `NaN` which is always `false`
 
 | Case         | Value        |
+|---|---|
 | 2 < 12       | true         | 
 | 2 < "12"     | true         | 
 | 2 < "john"   | false        | 
